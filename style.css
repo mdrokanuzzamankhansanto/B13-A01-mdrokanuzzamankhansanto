@@ -145,6 +145,10 @@
   font-weight: bold;
   color: #001931;
   padding-bottom: 16px;
+  transition: all 0.3s;
+}
+.note-heading h2:hover{
+  color: #30b868;
 }
 .note-heading {
   padding-top: 50px;
@@ -188,18 +192,37 @@
   font-size: 16px;
   line-height: 20px;
   color: #30b868;
+  transition: all 0.5s;
+}
+.brainheading .first span:hover{
+  color: #001931;
+  font-weight: 900;
 }
 .brainheading p{
   color: #627382;
   line-height: 20px;
   font-size: 16px;
  
+ 
+}
+.brainimg img:hover{
+  box-shadow: 7px -2px 87px 23px rgba(8,222,120,0.56);
+-webkit-box-shadow: 7px -2px 87px 23px rgba(8,222,120,0.56);
+-moz-box-shadow: 7px -2px 87px 23px rgba(8,222,120,0.56);
+  
+}
+.brainheading p:hover{
+  color: #30b868;
 }
 .brainheading h2{
   color: #001931;
   font-size: 38px;
   font-weight: bold;
   padding-bottom: 16px;
+  transition: all 0.5s;
+}
+.brainheading h2:hover{
+  color: #30b868;
 }
 .listparent{
   padding-top: 35px;
@@ -207,6 +230,9 @@
 .listparent .brainlist{
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.brainlist p{
+  color: red;
 }
 /* CHALLENGES (10 Marks) Early Access Section */
 #Early-Access-Section {
